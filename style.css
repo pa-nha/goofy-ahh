@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:500");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #00B1DC;
+  color: white;
+  font-family: "Monserrat", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background:rgb(21, 99, 118);
+  border-radius: 0px;
+  margin: 0px
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: none;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #18687c;
+}
+/*navigationbar*/
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: rgb(21, 99, 118)
+}
+h2 {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: rgb(21, 99, 118);
+}
+ul {
+  list-style: none;
+  background-color: rgb(21, 99, 118);
+}
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  background-color: rgb(21, 99, 118);
+}
+ul li a {
+  justify-content: center;
+  transition: all 0.2s ease-in;
+  border-right: 4px solid rgb(21, 99, 118);
+  border-left: 4px solid rgb(21, 99, 118);
+  margin: 10px 10px ;
+  padding: 0px 10px;
+  background-color: rgb(21, 99, 118);
+}
+ul li a:hover {
+  border-right: 4px solid;
+  border-left: 4px solid;
+  color: white;
+  border-color: white;
+  padding: 10px 10px;
+  margin: 0px 10px;
+}
+.lol{
+  background-color: rgb(21, 99, 118);
+}
+button {
+  padding: 9px 25px;
+  background-color: rgb(21, 99, 118);
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 15px;
+}
+button:hover {
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+
+.plx {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+p {
+  padding: 10px;
+  margin: 10px;
+}
+div {
+  align-items: center;
+}
+label {
+  margin-left: 20px;
+}
+.search {
+  margin: 0px;
+  background: rgb(251, 250, 250);
+  border: none;
+  border-radius: none;
+  box-shadow: 0 0px 3px 3px rgb(0, 136, 169);
+}
+.submit {
+  margin: 0px;
+  background: rgb(0, 0, 0);
+  padding: 3px;
+  margin: 3px;
+  width: 70px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 0px 1px 1px rgb(0, 136, 169);
+}
+.submit:hover {
+  background: rgb(255, 255, 255);
+  color: black;
+  box-shadow: 0 0px 3px 3px rgb(0, 136, 169);
+  transition: 0.5s;
+}
+/*div*/
+div {
+  display: inline-block;
+  justify-content: center;
+}
+/*box1*/
+.pop {
+  background: rgb(0, 136, 169);
+  margin: 45px;
+  padding: 0px;
+  border: 1px solid white;
+  box-shadow: 10px 10px rgb(0, 136, 169);
+  border-radius: 20px 20px;
+  width: 300px;
+}
+/*h3 in box1*/
+.loli {
+  background-color: rgb(233, 233, 233);
+  color: rgb(8, 153, 189);
+  border-radius: 20px 20px 0px 0px;
+  justify-content: center;
+  display: flex
+}
+/*text in box1*/
+.pre {
+  background-color: rgb(0, 136, 169);
+  
+}
+/*price tag 15$/month in box1*/
+.bt1 {
+  display: inline-block;
+  position:relative;
+  margin: 10px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  background: #0088a9;
+  padding: 9px;
+  left: 15px;
+  bottom: 10px;
+}
+.bt1:hover{
+  border-radius: 5px;
+  background-color: #00B1DC;
+}
+.bt2 {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px 20px;
+  background: #0088a9;
+  padding: 9px;
+  left: 60px;
+  bottom: 10px;
+}
+.bt2:hover{
+  border-radius: 5px;
+  background-color: #00B1DC;
+}
+.looking{
+  justify-content: center;
+  display: inline-block;
+  margin: 65px;
+  padding: 0 auto;
+  max-width: 260px;
+  
+}
+/*box2*/
+.pop2 {
+  display: inline-block;
+  background: rgb(0, 136, 169);
+  margin: 45px;
+  padding: 0px;
+  border: 1px solid white;
+  box-shadow: 10px 10px rgb(0, 136, 169);
+  border-radius: 20px 20px;
+  width: 300px;
+}
+/*h3 in box2*/
+.loli2 {
+  background: white;
+  border-radius: 20px 20px 0 0;
+  color: rgb(0, 136, 169);
+  display: flex;
+  justify-content: center;
+}
+/*text in box2*/
+.pre2 {
+  background: rgb(0, 136, 169);
+}
+/* first price tag in box2*/
+.bt3 {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  background: #0088a9;
+  padding: 9px;
+  left:15px;
+  bottom: 10px;
+}
+.bt3:hover{
+  border-radius: 5px;
+  background-color: #00B1DC;
+}
+/* second price tag in box2*/
+.bt4 {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  border: 2px solid white;
+  color: white;
+  border-radius: 20px;
+  background: #0088a9;
+  padding: 9px;
+  left: 60px;
+  bottom: 10px;
+}
+.bt4:hover{
+  border-radius: 5px;
+  background-color: #00B1DC;
+}
+footer p{
+  position: fixed;
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  padding: 20px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
